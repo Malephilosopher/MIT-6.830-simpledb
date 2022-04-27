@@ -3,7 +3,6 @@ package simpledb.optimizer;
 import simpledb.common.Database;
 import simpledb.ParsingException;
 import simpledb.execution.*;
-import simpledb.storage.TupleDesc;
 
 import java.util.*;
 
