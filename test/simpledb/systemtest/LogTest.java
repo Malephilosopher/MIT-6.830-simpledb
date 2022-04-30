@@ -1,19 +1,19 @@
 package simpledb.systemtest;
 
 import java.io.*;
+import java.simpledb.storage.*;
 import java.util.*;
 
 import org.junit.Test;
 
-import simpledb.common.Database;
-import simpledb.common.DbException;
-import simpledb.common.Permissions;
-import simpledb.common.Utility;
-import simpledb.execution.Insert;
-import simpledb.execution.SeqScan;
-import simpledb.storage.*;
-import simpledb.transaction.Transaction;
-import simpledb.transaction.TransactionAbortedException;
+import java.simpledb.common.Database;
+import java.simpledb.common.DbException;
+import java.simpledb.common.Permissions;
+import java.simpledb.common.Utility;
+import java.simpledb.execution.Insert;
+import java.simpledb.execution.SeqScan;
+import java.simpledb.transaction.Transaction;
+import java.simpledb.transaction.TransactionAbortedException;
 
 import static org.junit.Assert.*;
 

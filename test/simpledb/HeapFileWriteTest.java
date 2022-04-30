@@ -6,11 +6,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 import junit.framework.JUnit4TestAdapter;
-import simpledb.common.Database;
-import simpledb.common.Utility;
-import simpledb.storage.*;
+import java.simpledb.common.Database;
+import java.simpledb.common.Utility;
+
 import simpledb.systemtest.SystemTestUtil;
-import simpledb.transaction.TransactionId;
+
+import java.simpledb.storage.*;
+import java.simpledb.transaction.TransactionId;
 
 import java.util.Arrays;
 

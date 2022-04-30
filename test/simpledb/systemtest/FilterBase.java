@@ -9,14 +9,14 @@ import java.util.Map;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-import simpledb.common.Database;
-import simpledb.common.DbException;
-import simpledb.common.Utility;
-import simpledb.execution.Predicate;
-import simpledb.storage.HeapFile;
-import simpledb.storage.IntField;
-import simpledb.transaction.TransactionAbortedException;
-import simpledb.transaction.TransactionId;
+import java.simpledb.common.Database;
+import java.simpledb.common.DbException;
+import java.simpledb.common.Utility;
+import java.simpledb.execution.Predicate;
+import java.simpledb.storage.HeapFile;
+import java.simpledb.storage.IntField;
+import java.simpledb.transaction.TransactionAbortedException;
+import java.simpledb.transaction.TransactionId;
 
 public abstract class FilterBase extends SimpleDbTestBase {
     private static final int COLUMNS = 3;

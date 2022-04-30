@@ -1,11 +1,12 @@
 package simpledb;
 
-import simpledb.common.Database;
-import simpledb.common.Utility;
-import simpledb.storage.*;
+import java.simpledb.common.Database;
+import java.simpledb.common.Utility;
+
 import simpledb.systemtest.SimpleDbTestBase;
 import simpledb.systemtest.SystemTestUtil;
 
+import java.simpledb.storage.*;
 import java.util.*;
 import org.junit.After;
 import org.junit.Before;
@@ -13,7 +14,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 import junit.framework.JUnit4TestAdapter;
-import simpledb.transaction.TransactionId;
+
+import java.simpledb.transaction.TransactionId;
 
 public class HeapFileReadTest extends SimpleDbTestBase {
     private HeapFile hf;

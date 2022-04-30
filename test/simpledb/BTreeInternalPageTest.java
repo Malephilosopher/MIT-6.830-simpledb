@@ -1,15 +1,15 @@
 package simpledb;
 
-import simpledb.common.Database;
-import simpledb.index.*;
-import simpledb.index.BTreeFileEncoder.EntryComparator;
-import simpledb.index.BTreeFileEncoder.ReverseEntryComparator;
+import java.simpledb.common.Database;
+import java.simpledb.index.*;
+import java.simpledb.index.BTreeFileEncoder.EntryComparator;
+import java.simpledb.index.BTreeFileEncoder.ReverseEntryComparator;
 import simpledb.TestUtil.SkeletonFile;
-import simpledb.common.DbException;
-import simpledb.common.Type;
-import simpledb.common.Utility;
-import simpledb.storage.BufferPool;
-import simpledb.storage.IntField;
+import java.simpledb.common.DbException;
+import java.simpledb.common.Type;
+import java.simpledb.common.Utility;
+import java.simpledb.storage.BufferPool;
+import java.simpledb.storage.IntField;
 import simpledb.systemtest.SimpleDbTestBase;
 import simpledb.systemtest.SystemTestUtil;
 
@@ -24,7 +24,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import junit.framework.JUnit4TestAdapter;
-import simpledb.transaction.TransactionId;
+import java.simpledb.transaction.TransactionId;
 
 public class BTreeInternalPageTest extends SimpleDbTestBase {
 	private BTreePageId pid;

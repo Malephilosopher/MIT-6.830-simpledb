@@ -1,11 +1,11 @@
 package simpledb.systemtest;
 
-import simpledb.common.Database;
-import simpledb.common.Permissions;
-import simpledb.index.*;
-import simpledb.storage.BufferPool;
-import simpledb.storage.DbFileIterator;
-import simpledb.execution.Predicate.Op;
+import java.simpledb.common.Database;
+import java.simpledb.common.Permissions;
+import java.simpledb.index.*;
+import java.simpledb.storage.BufferPool;
+import java.simpledb.storage.DbFileIterator;
+import java.simpledb.execution.Predicate.Op;
 
 import java.util.*;
 
@@ -15,8 +15,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 import junit.framework.JUnit4TestAdapter;
-import simpledb.storage.Tuple;
-import simpledb.transaction.TransactionId;
+import java.simpledb.storage.Tuple;
+import java.simpledb.transaction.TransactionId;
 
 public class BTreeFileDeleteTest extends SimpleDbTestBase {
 	private TransactionId tid;

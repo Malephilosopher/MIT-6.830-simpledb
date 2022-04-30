@@ -1,11 +1,11 @@
 package simpledb;
 
 import simpledb.TestUtil.SkeletonFile;
-import simpledb.common.Database;
-import simpledb.common.DbException;
-import simpledb.common.Utility;
-import simpledb.index.BTreeHeaderPage;
-import simpledb.index.BTreePageId;
+import java.simpledb.common.Database;
+import java.simpledb.common.DbException;
+import java.simpledb.common.Utility;
+import java.simpledb.index.BTreeHeaderPage;
+import java.simpledb.index.BTreePageId;
 import simpledb.systemtest.SimpleDbTestBase;
 import simpledb.systemtest.SystemTestUtil;
 
@@ -13,7 +13,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import junit.framework.JUnit4TestAdapter;
-import simpledb.transaction.TransactionId;
+import java.simpledb.transaction.TransactionId;
 
 import static org.junit.Assert.*;
 

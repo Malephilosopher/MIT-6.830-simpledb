@@ -6,16 +6,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import simpledb.common.DbException;
-import simpledb.execution.Delete;
-import simpledb.execution.Filter;
-import simpledb.execution.Predicate;
-import simpledb.execution.SeqScan;
-import simpledb.storage.HeapFile;
-import simpledb.storage.IntField;
-import simpledb.storage.Tuple;
-import simpledb.transaction.TransactionAbortedException;
-import simpledb.transaction.TransactionId;
+import java.simpledb.common.DbException;
+import java.simpledb.execution.Delete;
+import java.simpledb.execution.Filter;
+import java.simpledb.execution.Predicate;
+import java.simpledb.execution.SeqScan;
+import java.simpledb.storage.HeapFile;
+import java.simpledb.storage.IntField;
+import java.simpledb.storage.Tuple;
+import java.simpledb.transaction.TransactionAbortedException;
+import java.simpledb.transaction.TransactionId;
 
 public class DeleteTest extends FilterBase {
     List<List<Integer>> expectedTuples = null;

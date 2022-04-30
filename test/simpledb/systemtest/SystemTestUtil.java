@@ -2,6 +2,8 @@ package simpledb.systemtest;
 
 import java.io.File;
 import java.io.IOException;
+import java.simpledb.common.*;
+import java.simpledb.storage.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -10,12 +12,10 @@ import java.util.UUID;
 
 import org.junit.Assert;
 
-import simpledb.common.*;
-import simpledb.execution.OpIterator;
-import simpledb.execution.SeqScan;
-import simpledb.storage.*;
-import simpledb.transaction.TransactionAbortedException;
-import simpledb.transaction.TransactionId;
+import java.simpledb.execution.OpIterator;
+import java.simpledb.execution.SeqScan;
+import java.simpledb.transaction.TransactionAbortedException;
+import java.simpledb.transaction.TransactionId;
 
 public class SystemTestUtil {
     public static final TupleDesc SINGLE_INT_DESCRIPTOR =

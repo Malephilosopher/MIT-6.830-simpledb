@@ -1,15 +1,15 @@
 package simpledb;
 
-import simpledb.common.Database;
-import simpledb.common.Permissions;
-import simpledb.execution.IndexPredicate;
-import simpledb.index.*;
-import simpledb.storage.DbFileIterator;
-import simpledb.storage.Field;
-import simpledb.storage.IntField;
+import java.simpledb.common.Database;
+import java.simpledb.common.Permissions;
+import java.simpledb.execution.IndexPredicate;
+import java.simpledb.index.*;
+import java.simpledb.storage.DbFileIterator;
+import java.simpledb.storage.Field;
+import java.simpledb.storage.IntField;
 import simpledb.systemtest.SimpleDbTestBase;
-import simpledb.index.BTreeUtility.BTreeWriter;
-import simpledb.execution.Predicate.Op;
+import java.simpledb.index.BTreeUtility.BTreeWriter;
+import java.simpledb.execution.Predicate.Op;
 
 import java.util.*;
 
@@ -19,7 +19,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 import junit.framework.JUnit4TestAdapter;
-import simpledb.transaction.TransactionId;
+import java.simpledb.transaction.TransactionId;
 
 public class BTreeNextKeyLockingTest extends SimpleDbTestBase {
 	private TransactionId tid;

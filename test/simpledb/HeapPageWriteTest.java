@@ -9,15 +9,15 @@ import org.junit.Before;
 import org.junit.Test;
 
 import simpledb.TestUtil.SkeletonFile;
-import simpledb.common.Database;
-import simpledb.common.DbException;
-import simpledb.common.Utility;
-import simpledb.storage.HeapPage;
-import simpledb.storage.HeapPageId;
-import simpledb.storage.Tuple;
+import java.simpledb.common.Database;
+import java.simpledb.common.DbException;
+import java.simpledb.common.Utility;
+import java.simpledb.storage.HeapPage;
+import java.simpledb.storage.HeapPageId;
+import java.simpledb.storage.Tuple;
 import simpledb.systemtest.SimpleDbTestBase;
 import simpledb.systemtest.SystemTestUtil;
-import simpledb.transaction.TransactionId;
+import java.simpledb.transaction.TransactionId;
 
 import static org.junit.Assert.*;
 

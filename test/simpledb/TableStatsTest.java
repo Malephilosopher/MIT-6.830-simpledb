@@ -8,12 +8,12 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.Assert;
 
-import simpledb.common.Database;
-import simpledb.execution.Predicate;
-import simpledb.optimizer.TableStats;
-import simpledb.storage.Field;
-import simpledb.storage.HeapFile;
-import simpledb.storage.IntField;
+import java.simpledb.common.Database;
+import java.simpledb.execution.Predicate;
+import java.simpledb.optimizer.TableStats;
+import java.simpledb.storage.Field;
+import java.simpledb.storage.HeapFile;
+import java.simpledb.storage.IntField;
 import simpledb.systemtest.SimpleDbTestBase;
 import simpledb.systemtest.SystemTestUtil;
 

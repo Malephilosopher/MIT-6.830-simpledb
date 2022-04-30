@@ -1,15 +1,15 @@
 package simpledb.systemtest;
 
-import simpledb.common.Database;
-import simpledb.common.DbException;
-import simpledb.common.Utility;
-import simpledb.execution.SeqScan;
-import simpledb.storage.*;
+import java.simpledb.common.Database;
+import java.simpledb.common.DbException;
+import java.simpledb.common.Utility;
+import java.simpledb.execution.SeqScan;
 
 import static org.junit.Assert.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.simpledb.storage.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -17,8 +17,8 @@ import java.util.Random;
 
 import org.junit.Test;
 
-import simpledb.transaction.TransactionAbortedException;
-import simpledb.transaction.TransactionId;
+import java.simpledb.transaction.TransactionAbortedException;
+import java.simpledb.transaction.TransactionId;
 
 /**
  * Dumps the contents of a table.

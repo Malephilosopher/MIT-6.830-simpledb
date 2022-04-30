@@ -1,12 +1,13 @@
 package simpledb;
 
-import simpledb.common.Database;
-import simpledb.index.*;
-import simpledb.storage.*;
+import java.simpledb.common.Database;
+
 import simpledb.systemtest.SimpleDbTestBase;
-import simpledb.execution.Predicate.Op;
+import java.simpledb.execution.Predicate.Op;
 
 import java.io.File;
+import java.simpledb.index.*;
+import java.simpledb.storage.*;
 import java.util.*;
 
 import org.junit.After;
@@ -15,7 +16,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 import junit.framework.JUnit4TestAdapter;
-import simpledb.transaction.TransactionId;
+
+import java.simpledb.transaction.TransactionId;
 
 public class BTreeFileDeleteTest extends SimpleDbTestBase {
 	private TransactionId tid;

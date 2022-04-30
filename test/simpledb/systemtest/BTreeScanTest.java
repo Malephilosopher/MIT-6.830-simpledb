@@ -1,25 +1,25 @@
 package simpledb.systemtest;
 
-import simpledb.common.Database;
-import simpledb.common.DbException;
+import java.simpledb.common.Database;
+import java.simpledb.common.DbException;
 
 import static org.junit.Assert.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.simpledb.storage.*;
 import java.util.*;
 
 import org.junit.Test;
 
-import simpledb.common.Utility;
-import simpledb.execution.IndexPredicate;
-import simpledb.execution.Predicate.Op;
-import simpledb.index.BTreeFile;
-import simpledb.index.BTreeScan;
-import simpledb.index.BTreeUtility;
-import simpledb.storage.*;
-import simpledb.transaction.TransactionAbortedException;
-import simpledb.transaction.TransactionId;
+import java.simpledb.common.Utility;
+import java.simpledb.execution.IndexPredicate;
+import java.simpledb.execution.Predicate.Op;
+import java.simpledb.index.BTreeFile;
+import java.simpledb.index.BTreeScan;
+import java.simpledb.index.BTreeUtility;
+import java.simpledb.transaction.TransactionAbortedException;
+import java.simpledb.transaction.TransactionId;
 
 /**
  * Dumps the contents of a table.

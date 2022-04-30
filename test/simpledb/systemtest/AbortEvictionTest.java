@@ -3,18 +3,18 @@ package simpledb.systemtest;
 import static org.junit.Assert.*;
 
 import java.io.IOException;
+import java.simpledb.storage.*;
 import java.util.Collections;
 
 import org.junit.Test;
 
-import simpledb.common.Database;
-import simpledb.common.DbException;
-import simpledb.common.Utility;
-import simpledb.execution.Insert;
-import simpledb.execution.SeqScan;
-import simpledb.storage.*;
-import simpledb.transaction.Transaction;
-import simpledb.transaction.TransactionAbortedException;
+import java.simpledb.common.Database;
+import java.simpledb.common.DbException;
+import java.simpledb.common.Utility;
+import java.simpledb.execution.Insert;
+import java.simpledb.execution.SeqScan;
+import java.simpledb.transaction.Transaction;
+import java.simpledb.transaction.TransactionAbortedException;
 
 public class AbortEvictionTest extends SimpleDbTestBase {
     // Note: This is a direct copy of the EvictTest method,

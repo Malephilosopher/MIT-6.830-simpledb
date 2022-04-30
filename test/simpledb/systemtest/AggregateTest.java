@@ -7,15 +7,15 @@ import java.util.List;
 import java.util.Map;
 
 import org.junit.Test;
-import simpledb.common.Database;
-import simpledb.common.DbException;
-import simpledb.execution.Aggregate;
-import simpledb.execution.Aggregator;
-import simpledb.execution.SeqScan;
-import simpledb.storage.DbFile;
-import simpledb.storage.HeapFile;
-import simpledb.transaction.TransactionAbortedException;
-import simpledb.transaction.TransactionId;
+import java.simpledb.common.Database;
+import java.simpledb.common.DbException;
+import java.simpledb.execution.Aggregate;
+import java.simpledb.execution.Aggregator;
+import java.simpledb.execution.SeqScan;
+import java.simpledb.storage.DbFile;
+import java.simpledb.storage.HeapFile;
+import java.simpledb.transaction.TransactionAbortedException;
+import java.simpledb.transaction.TransactionId;
 
 public class AggregateTest extends SimpleDbTestBase {
     public void validateAggregate(DbFile table, Aggregator.Op operation, int aggregateColumn, int groupColumn, List<List<Integer>> expectedResult)

@@ -3,8 +3,8 @@ package simpledb;
 import org.junit.Test;
 import org.junit.Assert;
 
-import simpledb.execution.Predicate.Op;
-import simpledb.optimizer.IntHistogram;
+import java.simpledb.execution.Predicate.Op;
+import java.simpledb.optimizer.IntHistogram;
 
 public class IntHistogramTest {
 

@@ -12,10 +12,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 import simpledb.TestUtil.SkeletonFile;
-import simpledb.common.Database;
-import simpledb.common.Utility;
-import simpledb.storage.DbFile;
-import simpledb.storage.TupleDesc;
+import java.simpledb.common.Database;
+import java.simpledb.common.Utility;
+import java.simpledb.storage.DbFile;
+import java.simpledb.storage.TupleDesc;
 import simpledb.systemtest.SimpleDbTestBase;
 import simpledb.systemtest.SystemTestUtil;
 

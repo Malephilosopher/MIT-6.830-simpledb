@@ -1,18 +1,18 @@
 package simpledb;
 
-import simpledb.common.Database;
-import simpledb.index.BTreeFileEncoder;
-import simpledb.index.BTreeFileEncoder.TupleComparator;
+import java.simpledb.common.Database;
+import java.simpledb.index.BTreeFileEncoder;
+import java.simpledb.index.BTreeFileEncoder.TupleComparator;
 import simpledb.TestUtil.SkeletonFile;
-import simpledb.common.DbException;
-import simpledb.common.Type;
-import simpledb.common.Utility;
-import simpledb.index.BTreeLeafPage;
-import simpledb.index.BTreePageId;
-import simpledb.index.BTreeUtility;
-import simpledb.storage.BufferPool;
-import simpledb.storage.IntField;
-import simpledb.storage.Tuple;
+import java.simpledb.common.DbException;
+import java.simpledb.common.Type;
+import java.simpledb.common.Utility;
+import java.simpledb.index.BTreeLeafPage;
+import java.simpledb.index.BTreePageId;
+import java.simpledb.index.BTreeUtility;
+import java.simpledb.storage.BufferPool;
+import java.simpledb.storage.IntField;
+import java.simpledb.storage.Tuple;
 import simpledb.systemtest.SimpleDbTestBase;
 import simpledb.systemtest.SystemTestUtil;
 
@@ -24,7 +24,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import junit.framework.JUnit4TestAdapter;
-import simpledb.transaction.TransactionId;
+import java.simpledb.transaction.TransactionId;
 
 import static org.junit.Assert.*;
 

@@ -1,24 +1,24 @@
 package simpledb;
 
-import simpledb.common.Database;
-import simpledb.common.Permissions;
-import simpledb.execution.IndexPredicate;
-import simpledb.execution.Predicate.Op;
-import simpledb.index.BTreeFile;
-import simpledb.index.BTreeRootPtrPage;
-import simpledb.index.BTreeUtility;
-import simpledb.index.BTreeUtility.*;
-import simpledb.storage.BufferPool;
-import simpledb.storage.DbFileIterator;
-import simpledb.storage.IntField;
-import simpledb.storage.Tuple;
+import java.simpledb.common.Database;
+import java.simpledb.common.Permissions;
+import java.simpledb.execution.IndexPredicate;
+import java.simpledb.execution.Predicate.Op;
+import java.simpledb.index.BTreeFile;
+import java.simpledb.index.BTreeRootPtrPage;
+import java.simpledb.index.BTreeUtility;
+import java.simpledb.index.BTreeUtility.*;
+import java.simpledb.storage.BufferPool;
+import java.simpledb.storage.DbFileIterator;
+import java.simpledb.storage.IntField;
+import java.simpledb.storage.Tuple;
 import simpledb.systemtest.SimpleDbTestBase;
 
 import java.util.*;
 import org.junit.Before;
 import org.junit.Test;
 import junit.framework.JUnit4TestAdapter;
-import simpledb.transaction.TransactionId;
+import java.simpledb.transaction.TransactionId;
 
 public class BTreeDeadlockTest extends SimpleDbTestBase {
 	private Random rand;
@@ -86,7 +86,7 @@ public class BTreeDeadlockTest extends SimpleDbTestBase {
 	 * Helper method to clean up the syntax of starting a BTreeWriter thread.
 	 * The parameters pass through to the BTreeWriter constructor.
 	 */
-	public BTreeUtility.BTreeWriter startWriter(TransactionId tid, 
+	public BTreeWriter startWriter(TransactionId tid,
 			int item, int count) {
 
 		BTreeWriter bw = new BTreeWriter(tid, bf, item, count);

@@ -1,14 +1,15 @@
 package simpledb;
 
 import simpledb.TestUtil.SkeletonFile;
-import simpledb.common.Database;
-import simpledb.common.Utility;
-import simpledb.storage.*;
+import java.simpledb.common.Database;
+import java.simpledb.common.Utility;
+
 import simpledb.systemtest.SimpleDbTestBase;
 import simpledb.systemtest.SystemTestUtil;
 
 import java.io.File;
 import java.io.IOException;
+import java.simpledb.storage.*;
 import java.util.*;
 
 import org.junit.Before;

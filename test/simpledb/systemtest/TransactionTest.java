@@ -1,6 +1,7 @@
 package simpledb.systemtest;
 
 import java.io.IOException;
+import java.simpledb.storage.*;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -12,16 +13,15 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import org.junit.Test;
 
-import simpledb.common.Database;
-import simpledb.common.DbException;
-import simpledb.execution.Delete;
-import simpledb.execution.Insert;
-import simpledb.execution.Query;
-import simpledb.execution.SeqScan;
-import simpledb.storage.*;
-import simpledb.transaction.Transaction;
-import simpledb.transaction.TransactionAbortedException;
-import simpledb.transaction.TransactionId;
+import java.simpledb.common.Database;
+import java.simpledb.common.DbException;
+import java.simpledb.execution.Delete;
+import java.simpledb.execution.Insert;
+import java.simpledb.execution.Query;
+import java.simpledb.execution.SeqScan;
+import java.simpledb.transaction.Transaction;
+import java.simpledb.transaction.TransactionAbortedException;
+import java.simpledb.transaction.TransactionId;
 
 import static org.junit.Assert.*;
 

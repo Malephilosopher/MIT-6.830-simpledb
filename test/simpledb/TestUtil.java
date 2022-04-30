@@ -1,10 +1,10 @@
 package simpledb;
 
-import simpledb.common.*;
-import simpledb.execution.OpIterator;
-import simpledb.storage.*;
-import simpledb.transaction.TransactionAbortedException;
-import simpledb.transaction.TransactionId;
+import java.simpledb.common.*;
+import java.simpledb.execution.OpIterator;
+import java.simpledb.storage.*;
+import java.simpledb.transaction.TransactionAbortedException;
+import java.simpledb.transaction.TransactionId;
 
 import java.io.*;
 import java.util.*;
@@ -71,7 +71,7 @@ public class TestUtil {
                 Field f;
                 Object t = tupdata[i++];
                 if (t instanceof String)
-                    f = new StringField((String)t, Type.STRING_LEN); 
+                    f = new StringField((String)t, Type.STRING_LEN);
                 else
                     f = new IntField((Integer)t);
 

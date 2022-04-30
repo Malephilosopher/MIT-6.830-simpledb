@@ -1,13 +1,14 @@
 package simpledb.systemtest;
 
-import simpledb.common.Database;
-import simpledb.execution.IndexPredicate;
-import simpledb.index.BTreeFile;
-import simpledb.index.BTreeUtility;
-import simpledb.storage.*;
+import java.simpledb.common.Database;
+import java.simpledb.execution.IndexPredicate;
+import java.simpledb.index.BTreeFile;
+import java.simpledb.index.BTreeUtility;
+import java.simpledb.index.BTreeUtility.*;
 
 import static org.junit.Assert.*;
 
+import java.simpledb.storage.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -17,9 +18,8 @@ import java.util.concurrent.ArrayBlockingQueue;
 import org.junit.After;
 import org.junit.Test;
 
-import simpledb.index.BTreeUtility.*;
-import simpledb.execution.Predicate.Op;
-import simpledb.transaction.TransactionId;
+import java.simpledb.execution.Predicate.Op;
+import java.simpledb.transaction.TransactionId;
 
 /**
  * System test for the BTree
