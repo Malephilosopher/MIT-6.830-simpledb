@@ -1,12 +1,13 @@
 package simpledb;
 
 import static org.junit.Assert.assertEquals;
+
+import jav.simpledb.storage.*;
 import junit.framework.JUnit4TestAdapter;
 
 import org.junit.Test;
 
-import java.simpledb.common.Utility;
-import java.simpledb.storage.*;
+import jav.simpledb.common.Utility;
 
 import simpledb.systemtest.SimpleDbTestBase;
 

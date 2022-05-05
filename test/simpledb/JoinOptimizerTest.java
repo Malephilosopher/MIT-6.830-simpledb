@@ -8,20 +8,20 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.simpledb.Parser;
-import java.simpledb.ParsingException;
-import java.simpledb.common.Database;
-import java.simpledb.common.Utility;
-import java.simpledb.execution.Predicate;
-import java.simpledb.optimizer.JoinOptimizer;
-import java.simpledb.optimizer.LogicalJoinNode;
-import java.simpledb.optimizer.TableStats;
-import java.simpledb.storage.BufferPool;
-import java.simpledb.storage.HeapFile;
-import java.simpledb.storage.HeapFileEncoder;
+import jav.simpledb.Parser;
+import jav.simpledb.ParsingException;
+import jav.simpledb.common.Database;
+import jav.simpledb.common.Utility;
+import jav.simpledb.execution.Predicate;
+import jav.simpledb.optimizer.JoinOptimizer;
+import jav.simpledb.optimizer.LogicalJoinNode;
+import jav.simpledb.optimizer.TableStats;
+import jav.simpledb.storage.BufferPool;
+import jav.simpledb.storage.HeapFile;
+import jav.simpledb.storage.HeapFileEncoder;
 import simpledb.systemtest.SimpleDbTestBase;
 import simpledb.systemtest.SystemTestUtil;
-import java.simpledb.transaction.TransactionId;
+import jav.simpledb.transaction.TransactionId;
 
 public class JoinOptimizerTest extends SimpleDbTestBase {
 

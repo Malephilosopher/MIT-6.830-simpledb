@@ -9,10 +9,10 @@ import junit.framework.JUnit4TestAdapter;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.simpledb.common.Type;
-import java.simpledb.execution.Aggregator;
-import java.simpledb.execution.IntegerAggregator;
-import java.simpledb.execution.OpIterator;
+import jav.simpledb.common.Type;
+import jav.simpledb.execution.Aggregator;
+import jav.simpledb.execution.IntegerAggregator;
+import jav.simpledb.execution.OpIterator;
 import simpledb.systemtest.SimpleDbTestBase;
 
 public class IntegerAggregatorTest extends SimpleDbTestBase {

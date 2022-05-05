@@ -7,14 +7,14 @@ import java.util.List;
 
 import org.junit.Test;
 
-import java.simpledb.storage.BufferPool;
-import java.simpledb.common.Database;
-import java.simpledb.storage.HeapFile;
-import java.simpledb.storage.HeapFileEncoder;
-import java.simpledb.Parser;
-import java.simpledb.optimizer.TableStats;
-import java.simpledb.transaction.Transaction;
-import java.simpledb.common.Utility;
+import jav.simpledb.storage.BufferPool;
+import jav.simpledb.common.Database;
+import jav.simpledb.storage.HeapFile;
+import jav.simpledb.storage.HeapFileEncoder;
+import jav.simpledb.Parser;
+import jav.simpledb.optimizer.TableStats;
+import jav.simpledb.transaction.Transaction;
+import jav.simpledb.common.Utility;
 
 public class QueryTest {
 	

@@ -6,15 +6,15 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
-import java.simpledb.common.Database;
-import java.simpledb.common.DbException;
-import java.simpledb.execution.Insert;
-import java.simpledb.execution.SeqScan;
-import java.simpledb.storage.HeapFile;
-import java.simpledb.storage.IntField;
-import java.simpledb.storage.Tuple;
-import java.simpledb.transaction.TransactionAbortedException;
-import java.simpledb.transaction.TransactionId;
+import jav.simpledb.common.Database;
+import jav.simpledb.common.DbException;
+import jav.simpledb.execution.Insert;
+import jav.simpledb.execution.SeqScan;
+import jav.simpledb.storage.HeapFile;
+import jav.simpledb.storage.IntField;
+import jav.simpledb.storage.Tuple;
+import jav.simpledb.transaction.TransactionAbortedException;
+import jav.simpledb.transaction.TransactionId;
 
 public class InsertTest extends SimpleDbTestBase {
     private void validateInsert(int columns, int sourceRows, int destinationRows)

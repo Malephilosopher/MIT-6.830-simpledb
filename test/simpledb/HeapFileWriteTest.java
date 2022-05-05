@@ -1,18 +1,18 @@
 package simpledb;
 
+import jav.simpledb.storage.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 import junit.framework.JUnit4TestAdapter;
-import java.simpledb.common.Database;
-import java.simpledb.common.Utility;
+import jav.simpledb.common.Database;
+import jav.simpledb.common.Utility;
 
 import simpledb.systemtest.SystemTestUtil;
 
-import java.simpledb.storage.*;
-import java.simpledb.transaction.TransactionId;
+import jav.simpledb.transaction.TransactionId;
 
 import java.util.Arrays;
 

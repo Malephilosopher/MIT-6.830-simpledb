@@ -8,15 +8,15 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import java.simpledb.common.Database;
-import java.simpledb.common.DbException;
-import java.simpledb.execution.Join;
-import java.simpledb.execution.JoinPredicate;
-import java.simpledb.execution.Predicate;
-import java.simpledb.execution.SeqScan;
-import java.simpledb.storage.HeapFile;
-import java.simpledb.transaction.TransactionAbortedException;
-import java.simpledb.transaction.TransactionId;
+import jav.simpledb.common.Database;
+import jav.simpledb.common.DbException;
+import jav.simpledb.execution.Join;
+import jav.simpledb.execution.JoinPredicate;
+import jav.simpledb.execution.Predicate;
+import jav.simpledb.execution.SeqScan;
+import jav.simpledb.storage.HeapFile;
+import jav.simpledb.transaction.TransactionAbortedException;
+import jav.simpledb.transaction.TransactionId;
 
 public class JoinTest extends SimpleDbTestBase {
     private static final int COLUMNS = 2;

@@ -5,13 +5,13 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 import junit.framework.JUnit4TestAdapter;
-import java.simpledb.common.Database;
-import java.simpledb.common.Permissions;
-import java.simpledb.common.Utility;
-import java.simpledb.storage.BufferPool;
-import java.simpledb.storage.HeapPageId;
-import java.simpledb.storage.PageId;
-import java.simpledb.transaction.TransactionId;
+import jav.simpledb.common.Database;
+import jav.simpledb.common.Permissions;
+import jav.simpledb.common.Utility;
+import jav.simpledb.storage.BufferPool;
+import jav.simpledb.storage.HeapPageId;
+import jav.simpledb.storage.PageId;
+import jav.simpledb.transaction.TransactionId;
 
 public class LockingTest extends TestUtil.CreateHeapFile {
   private PageId p0;

@@ -5,7 +5,7 @@ import junit.framework.JUnit4TestAdapter;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.simpledb.storage.HeapPageId;
+import jav.simpledb.storage.HeapPageId;
 import simpledb.systemtest.SimpleDbTestBase;
 
 import static org.junit.Assert.*;

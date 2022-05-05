@@ -5,7 +5,7 @@ import junit.framework.JUnit4TestAdapter;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.simpledb.index.BTreePageId;
+import jav.simpledb.index.BTreePageId;
 import simpledb.systemtest.SimpleDbTestBase;
 
 import static org.junit.Assert.*;

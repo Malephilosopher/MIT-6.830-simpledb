@@ -1,13 +1,13 @@
 package simpledb;
 
-import java.simpledb.common.Database;
+import jav.simpledb.common.Database;
 
+import jav.simpledb.index.*;
+import jav.simpledb.storage.*;
 import simpledb.systemtest.SimpleDbTestBase;
-import java.simpledb.execution.Predicate.Op;
+import jav.simpledb.execution.Predicate.Op;
 
 import java.io.File;
-import java.simpledb.index.*;
-import java.simpledb.storage.*;
 import java.util.*;
 
 import org.junit.After;
@@ -17,7 +17,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import junit.framework.JUnit4TestAdapter;
 
-import java.simpledb.transaction.TransactionId;
+import jav.simpledb.transaction.TransactionId;
 
 public class BTreeFileInsertTest extends SimpleDbTestBase {
 	private TransactionId tid;

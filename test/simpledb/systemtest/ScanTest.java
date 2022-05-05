@@ -1,24 +1,24 @@
 package simpledb.systemtest;
 
-import java.simpledb.common.Database;
-import java.simpledb.common.DbException;
-import java.simpledb.common.Utility;
-import java.simpledb.execution.SeqScan;
+import jav.simpledb.common.Database;
+import jav.simpledb.common.DbException;
+import jav.simpledb.common.Utility;
+import jav.simpledb.execution.SeqScan;
 
 import static org.junit.Assert.*;
 
 import java.io.File;
 import java.io.IOException;
-import java.simpledb.storage.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Random;
 
+import jav.simpledb.storage.*;
 import org.junit.Test;
 
-import java.simpledb.transaction.TransactionAbortedException;
-import java.simpledb.transaction.TransactionId;
+import jav.simpledb.transaction.TransactionAbortedException;
+import jav.simpledb.transaction.TransactionId;
 
 /**
  * Dumps the contents of a table.

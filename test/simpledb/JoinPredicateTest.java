@@ -2,9 +2,9 @@ package simpledb;
 
 import org.junit.Test;
 
-import java.simpledb.common.Utility;
-import java.simpledb.execution.JoinPredicate;
-import java.simpledb.execution.Predicate;
+import jav.simpledb.common.Utility;
+import jav.simpledb.execution.JoinPredicate;
+import jav.simpledb.execution.Predicate;
 import simpledb.systemtest.SimpleDbTestBase;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;

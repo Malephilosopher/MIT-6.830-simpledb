@@ -1,12 +1,12 @@
 package simpledb.systemtest;
 
-import java.simpledb.common.Database;
-import java.simpledb.common.Permissions;
-import java.simpledb.execution.IndexPredicate;
-import java.simpledb.index.*;
-import java.simpledb.storage.BufferPool;
-import java.simpledb.storage.DbFileIterator;
-import java.simpledb.execution.Predicate.Op;
+import jav.simpledb.common.Database;
+import jav.simpledb.common.Permissions;
+import jav.simpledb.execution.IndexPredicate;
+import jav.simpledb.index.*;
+import jav.simpledb.storage.BufferPool;
+import jav.simpledb.storage.DbFileIterator;
+import jav.simpledb.execution.Predicate.Op;
 
 import java.io.File;
 import java.util.*;
@@ -17,9 +17,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 import junit.framework.JUnit4TestAdapter;
-import java.simpledb.storage.IntField;
-import java.simpledb.storage.Tuple;
-import java.simpledb.transaction.TransactionId;
+import jav.simpledb.storage.IntField;
+import jav.simpledb.storage.Tuple;
+import jav.simpledb.transaction.TransactionId;
 
 public class BTreeFileInsertTest extends SimpleDbTestBase {
 	private TransactionId tid;
